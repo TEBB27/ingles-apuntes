@@ -8,21 +8,29 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Topics', link: '/pages/first-level' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Topics',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { 
+            text: 'Intensive English (First Level)', 
+            link: '/pages/first-level',
+            items: [
+              { text: 'Subpage 1', link: '/markdown-examples/subpage1' },
+              { text: 'Subpage 2', link: '/markdown-examples/subpage2' },
+            ]
+          },
+          { text: 'Intensive English (Second Level)', link: '/pages/second-level' },
+          { text: 'Intensive English (Third Level)', link: '/pages/third-level' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/TEBB27/ingles-apuntes' }
     ]
   }
 })
