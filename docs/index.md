@@ -17,12 +17,12 @@ hero:
 features:
   - title: Intensive English (First Level)
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
+    link: /pages/first-level
   - title: Intensive English (Second Level)
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
+    link: /pages/second-level
   - title: Intensive English (Third Level)
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
+    link: /pages/third-level
 ---
 
