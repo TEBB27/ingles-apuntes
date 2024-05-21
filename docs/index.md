@@ -8,11 +8,11 @@ hero:
   tagline: Bienvenidos a la mejor agenda que existe o va existir en el mundo de las agendas agendosas
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Program
+      link: /pages/programa
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Cosas varias jaja
+      link: /pages/first-level
 
 features:
   - title: Intensive English (First Level)

@@ -15,6 +15,7 @@ export default defineConfig({
       {
         text: 'Topics',
         items: [
+          { text: 'Programa', link: '/pages/programa' },
           { 
             text: 'Intensive English (First Level)', 
             link: '/pages/first-level',
